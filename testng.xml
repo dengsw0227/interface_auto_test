@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="接口测试">
+    <test verbose="2" preserve-order="true" name="D:/IdeaProjects/auto">
+        <classes>
+            <class name="lemon.testcases.LoginTest"/>
+            <class name="lemon.testcases.RechargeTest"/>
+            <class name="lemon.testcases.InvestFlowTest"/>
+            <class name="lemon.testcases.RegisterTest"/>
+
+<!--                <methods>-->
+<!--                    <include name="postform"/>-->
+<!--                    <include name="postfile"/>-->
+<!--                    <include name="getResponsehtml"/>-->
+<!--                    <include name="getResponsexml"/>-->
+<!--                </methods>-->
+
+        </classes>
+    </test>
+</suite>
